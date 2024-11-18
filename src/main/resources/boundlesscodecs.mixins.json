@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "package": "boundlesscodecs.impl.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ApplicativeMixin",
+    "InstanceMixin",
+    "P10Mixin",
+    "P11Mixin",
+    "P12Mixin",
+    "P13Mixin",
+    "P14Mixin",
+    "P15Mixin",
+    "P16Mixin",
+    "P1Mixin",
+    "P2Mixin",
+    "P3Mixin",
+    "P4Mixin",
+    "P5Mixin",
+    "P6Mixin",
+    "P7Mixin",
+    "P8Mixin",
+    "P9Mixin",
+    "RecordCodecBuilderInstanceAp2Accessor",
+    "RecordCodecBuilderInstanceAp3Accessor",
+    "RecordCodecBuilderInstanceAp4Accessor",
+    "RecordCodecBuilderInstanceLift1Accessor",
+    "RecordCodecBuilderInstanceMapMixin",
+    "RecordCodecBuilderMapCodecAccessor",
+    "RecordCodecBuilderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

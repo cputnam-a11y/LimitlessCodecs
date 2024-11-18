@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "limitlesscodecs",
+	"version": "${version}",
+	"name": "LimitlessCodecs",
+	"description": "A mod extending various limits on codecs in minecraft",
+	"authors": [
+		"CPutnam-a11y"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/limitlesscodecs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"boundlesscodecs.TestEntrypoint"
+		]
+	},
+	"mixins": [
+		"boundlesscodecs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
